@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  font-size: 17px;
+  margin: 25px 0;
+}
+address {
+  margin-top: 30px;
+}
+span {
+  color: #2690d4;
+}
+.header-p {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.header {
+  height: 250px;
+  background-color: #333333;
+  color: #fcfdef;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  text-align: center;
+  padding-top: 15px;
+}
+
+.btn {
+  background-color: #333333;
+  color: #fcfdef;
+  padding: 15px;
+  border: 1px solid #fff;
+  margin-top: 30px;
+}
+
+.top {
+  background-color: #eaeaea;
+  height: 125px;
+  padding-top: 15px;
+}
+
+.main-p {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.left-paraph {
+  width: 30%;
+  text-align: center;
+}
+.right-paraph {
+  width: 30%;
+  text-align: center;
+}
+
+.Third-div {
+  background-color: #333333;
+  color: #fcfdef;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.third-box {
+  background-color: #fff;
+  color: #333;
+  height: 100%;
+  min-height: 200px;
+  max-height: 280px;
+  text-align: center;
+  width: 200px;
+  padding: 9px;
+  float: left;
+}
+
+.fourth-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  height: 125px;
+  /* padding: 20px; */
+}
+.handle-paraph {
+  align-self: center;
+}
+
+.fifth-div {
+  display: flex;
+  text-align: center;
+  height: 200px;
+  color: #fff;
+}
+.blue {
+  background-color: #2690d4;
+  padding: 20px;
+}
+.black {
+  background-color: #333;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+@media (max-width: 960px) {
+  .header-p {
+    width: 90%;
+  }
+  header, .top {
+    height: auto !important;
+    padding-bottom: 20px;
+  }
+
+  .right-paraph,.left-paraph {
+    width: 40%;
+    padding-bottom: 20px;
+  }
+  .third-box {
+    width: 30%;
+  }
+  .fifth-div {
+    height: auto;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .header-p {
+    width: 90%;
+  }
+  header {
+    height: auto !important;
+    padding-bottom: 20px;
+  }
+  .right-paraph,.left-paraph {
+    width: 40%;
+    padding-bottom: 20px;
+  }
+  .third-box {
+    width: 30%;
+  }
+  .fifth-div {
+    height: auto;
+  }
+}
